@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/workspaces/BaekjoonOnline/build",
+  "command": "/usr/bin/cc   -g   -o CMakeFiles/Baekjoon.dir/main.c.o   -c /workspaces/BaekjoonOnline/main.c",
+  "file": "/workspaces/BaekjoonOnline/main.c"
+}
+]
