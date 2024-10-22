@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /workspaces/BaekjoonOnline
-BuildDirectory: /workspaces/BaekjoonOnline/build
+SourceDirectory: /workspaces/BaekjoonOnline/src
+BuildDirectory: /workspaces/BaekjoonOnline/build/src
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/workspaces/BaekjoonOnline"
+ConfigureCommand: "/usr/bin/cmake" "/workspaces/BaekjoonOnline/src"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -57,13 +57,13 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: /usr/local/bin/git
+UpdateCommand: 
 UpdateOptions: 
-UpdateType: git
+UpdateType: 
 
 # Compiler info
 Compiler: /usr/bin/c++
-CompilerVersion: 
+CompilerVersion: 9.4.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

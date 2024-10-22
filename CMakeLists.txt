@@ -1,11 +1,15 @@
 cmake_minimum_required(VERSION 3.5.0)
-project(Baekjoon VERSION 0.1.0 LANGUAGES C)
+project(
+    Baekjoonalgorithm # 프로젝트 이름
+    VERSION 1.0.0 # 프로젝트 버전
+    DESCRIPTION "백준 알고리즘 풀이" # 프로젝트 설명
+    LANGUAGES C # 사용할 언어
+    )
 
-add_executable(Baekjoon main.c)
+set(CMAKE_C_STANDARD)
 
-include(CTest)
 enable_testing()
-
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
+
+
+add_subdirectory(src)

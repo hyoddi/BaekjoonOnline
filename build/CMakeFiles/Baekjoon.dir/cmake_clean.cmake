@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "Baekjoon"
   "Baekjoon.pdb"
-  "CMakeFiles/Baekjoon.dir/main.c.o"
+  "CMakeFiles/Baekjoon.dir/test.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

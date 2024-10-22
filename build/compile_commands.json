@@ -1,7 +1,7 @@
 [
 {
   "directory": "/workspaces/BaekjoonOnline/build",
-  "command": "/usr/bin/cc   -g   -o CMakeFiles/Baekjoon.dir/main.c.o   -c /workspaces/BaekjoonOnline/main.c",
-  "file": "/workspaces/BaekjoonOnline/main.c"
+  "command": "/usr/bin/cc   -g   -o CMakeFiles/Baekjoon.dir/test.c.o   -c /workspaces/BaekjoonOnline/test.c",
+  "file": "/workspaces/BaekjoonOnline/test.c"
 }
 ]

@@ -57,27 +57,27 @@ include CMakeFiles/Baekjoon.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Baekjoon.dir/flags.make
 
-CMakeFiles/Baekjoon.dir/main.c.o: CMakeFiles/Baekjoon.dir/flags.make
-CMakeFiles/Baekjoon.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/BaekjoonOnline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Baekjoon.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Baekjoon.dir/main.c.o   -c /workspaces/BaekjoonOnline/main.c
+CMakeFiles/Baekjoon.dir/test.c.o: CMakeFiles/Baekjoon.dir/flags.make
+CMakeFiles/Baekjoon.dir/test.c.o: ../test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/BaekjoonOnline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Baekjoon.dir/test.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Baekjoon.dir/test.c.o   -c /workspaces/BaekjoonOnline/test.c
 
-CMakeFiles/Baekjoon.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Baekjoon.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/BaekjoonOnline/main.c > CMakeFiles/Baekjoon.dir/main.c.i
+CMakeFiles/Baekjoon.dir/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Baekjoon.dir/test.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/BaekjoonOnline/test.c > CMakeFiles/Baekjoon.dir/test.c.i
 
-CMakeFiles/Baekjoon.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Baekjoon.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/BaekjoonOnline/main.c -o CMakeFiles/Baekjoon.dir/main.c.s
+CMakeFiles/Baekjoon.dir/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Baekjoon.dir/test.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/BaekjoonOnline/test.c -o CMakeFiles/Baekjoon.dir/test.c.s
 
 # Object files for target Baekjoon
 Baekjoon_OBJECTS = \
-"CMakeFiles/Baekjoon.dir/main.c.o"
+"CMakeFiles/Baekjoon.dir/test.c.o"
 
 # External object files for target Baekjoon
 Baekjoon_EXTERNAL_OBJECTS =
 
-Baekjoon: CMakeFiles/Baekjoon.dir/main.c.o
+Baekjoon: CMakeFiles/Baekjoon.dir/test.c.o
 Baekjoon: CMakeFiles/Baekjoon.dir/build.make
 Baekjoon: CMakeFiles/Baekjoon.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/BaekjoonOnline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Baekjoon"
